@@ -1,0 +1,52 @@
+.addnote-container_textbox {
+    background: #313338;
+    resize: none;
+    width: 330px;
+    height: 250px;
+    color: #eee;
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 8px;
+    margin-top: 10%;
+}
+
+.addnote-container_textbox:focus {
+    border: 1px solid #000;
+}
+
+.note_container {
+    display: flex;
+    justify-content: center;
+    background-color: #2b2d31;
+    margin: 1em;
+    padding: 16px;
+    border-radius: 16px;
+    height: 60px;
+}
+
+.note_text {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: left;
+    width: 200px;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.note_deleteicon {
+    font-size: 20px;
+    height: fit-content;
+    padding: 3px 5px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.note_deleteicon:hover {
+    background-color: #21262d;
+}
+
+#infobox {
+    margin-top: 5px;
+    color: red;
+    font-weight: 500;
+}

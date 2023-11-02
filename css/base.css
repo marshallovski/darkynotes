@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+button,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+#app {
+  text-align: center;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: normal;
+  user-select: none;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.no-select {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  width: fit-content;
+  text-align: center;
+}
+
+a:hover {
+  color: #999;
+  border-bottom: 1px solid #999;
+}
+
+@media (prefers-reduced-motion) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url('../fonts/Montserrat-Medium.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('../fonts/Montserrat-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-display: swap;
+}
+
+/* material icons */
+@font-face {
+  font-family: 'Material Icons';
+  src: url('../fonts/MI.woff2');
+  font-style: normal;
+  font-weight: normal;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}

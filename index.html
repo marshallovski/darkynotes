@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Darky Notes</title>
+
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/note.css">
+
+  <link rel="stylesheet" href="./css/components/buttons.css">
+
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+</head>
+
+<body>
+  <noscript>
+    <style>
+      #app {
+        display: none;
+      }
+    </style>
+
+    <h1>Darky Notes won't work without JavaScript. Please, enable it.</h1>
+  </noscript>
+
+  <main id="app">
+    <div class="container">
+      <section class="home-container">
+        <header class="main_hero">
+          <h1 class="no-select">Your Notes</h1>
+          <p class="main_hero-desc">
+            There's empty...
+          </p>
+
+          <div class="notes-container" id="home_notes-container"></div>
+        </header>
+
+        <footer class="home-container_footer">
+          <button id="home_addNote-btn" class="btn btn-void">
+            <i class="material-icons">add</i>
+            Add note
+          </button>
+
+          <button id="home_removeAll-btn" class="btn btn-void" hidden>
+            <i class="material-icons">playlist_remove</i>
+            Remove all
+          </button>
+        </footer>
+      </section>
+
+      <section class="addnote-container" hidden>
+        <h1>Add Note</h1>
+        <p id="infobox" hidden>Too long text!</p>
+
+        <textarea class="addnote-container_textbox" 
+        id="note_textbox" 
+        placeholder="Type here..." 
+        autocomplete="off"
+        autofocus="true" 
+        maxlength="60"
+        required></textarea>
+
+        <div class="btn-group">
+          <button id="addNote-btn" class="btn btn-void">
+            <i class="material-icons">done</i>
+            Done
+          </button>
+
+          <button id="cancelNote-btn" class="btn btn-void">
+            <i class="material-icons btn-icon">cancel</i>
+            Cancel
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <a href="https://github.com/marshallovski/darkynotes" class="no-select">Darky Notes</a>
+
+  <script src="./js/home.js"></script>
+  <script src="./js/note.js"></script>
+</body>
+
+</html>

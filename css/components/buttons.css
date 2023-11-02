@@ -1,0 +1,31 @@
+.btn {
+    padding: 3px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 300ms;
+    background-color: #313338;
+    color: #eee;
+    text-align: center;
+}
+
+.btn-group {
+    position: fixed;
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+}
+
+.btn-icon {
+    display: inline-block;
+}
+
+.btn-void {
+    background-color: transparent;
+    color: #eee;
+}
+
+.btn-void:hover {
+    background-color: #313338;
+    color: #fff;
+}
