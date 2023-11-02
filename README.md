@@ -1,6 +1,8 @@
 # darkynotes
 Simple and light Notes app
 
+See the demo <a href="https://marshallovski.github.io/darkynotes/">here</a>
+
 
 # Screenshots
 <img src="https://github.com/marshallovski/darkynotes/assets/68496774/24fceaa0-d665-489d-bb8e-8b06b01e3450" style="width: 736px;">
